@@ -1,11 +1,12 @@
 const Hero = () => {
     return (
-        <div className="">
-            <h1 className="w-auto text-center text-6xl font-bold font-font-sg text-custom-green y-4 px-6 my-10">Гъвкави решения за <br/>
+        <div className="my-10">
+            <h1 className="w-auto text-center text-5xl font-bold font-font-sg text-custom-green">Гъвкави решения за <br/>
              сухопътен транспорт за <br/>
              всеки клиент</h1>
             <div className="flex justify-center items-center h-screen">
-                <img src='/hero-img.png' className="mx-auto w-7/12 h-full my-12" alt='hero img'/>
+                <img src='/hero-img.png' width={969}
+        height={690} className="mx-auto w-[50%]" alt='hero img'/>
             </div>
         </div>
     )
