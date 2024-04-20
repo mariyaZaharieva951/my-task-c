@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-green': '#083C2F'
+        'custom-green': '#083C2F',
+        'bg-color': '#394649',
+        'in-color': '#E7F874', 
       },
       fontFamily: {
 				'font-sg': ['Space Grotesk', 'sans-serif'],
