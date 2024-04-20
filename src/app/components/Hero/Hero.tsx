@@ -4,9 +4,9 @@ const Hero = () => {
             <h1 className="w-auto text-center text-5xl font-bold font-font-sg text-custom-green">Гъвкави решения за <br/>
              сухопътен транспорт за <br/>
              всеки клиент</h1>
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex justify-center items-center my-8">
                 <img src='/hero-img.png' width={969}
-        height={690} className="mx-auto w-[50%]" alt='hero img'/>
+        height={690} className="mx-auto w-[45%]" alt='hero img'/>
             </div>
         </div>
     )
