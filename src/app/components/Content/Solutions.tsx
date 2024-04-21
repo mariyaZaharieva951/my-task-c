@@ -1,13 +1,13 @@
 const Solutions = () => {
     return (
-      <div className="mx-auto w-[36%] font-font-sg text-custom-green">
+      <div className="mx-auto w-[50%] font-font-sg text-custom-green">
         <h1 className="font-bold text-3xl my-7">Решения</h1>
         <div>
             <p className="text-sm my-7">Фокусът ни върху клиентите е същността на нашата работа. Ние доставяме услуги за всички видове
 						бизнес – от малки местни предприятия до мултинационални компании.</p>
         </div>
         <div>
-            <p className="text-sm">Ние обработваме вашата пратка като всяка друга голяма товарна пратка – старателно и
+            <p className="text-sm mb-2">Ние обработваме вашата пратка като всяка друга голяма товарна пратка – старателно и
 						професионално.</p>
             <ul className="text-sm list-disc list-inside">
                 <li>Решения за всички видове стоки (конвенционални, изискващи температурен режим, опасни товари)</li>

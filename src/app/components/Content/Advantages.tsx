@@ -1,6 +1,6 @@
 const Advantages = () => {
     return (
-        <div className="mx-auto w-[36%] font-font-sg text-custom-green">
+        <div className="mx-auto w-[50%] font-font-sg text-custom-green">
         <h1 className="font-bold text-3xl my-7">Предимства</h1>
         <div>
             <p className="text-sm">Фокусът ни върху клиентите е същността на нашата работа. Ние доставяме услуги за всички видове

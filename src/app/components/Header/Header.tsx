@@ -2,14 +2,14 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className='flex justify-evenly items-center py-7 mx-auto max-w-6xl text-custom-green font-font-sg font-bold'>
-        <div className='font-bold text-lg mx-5 hover:underline'>
+    <header className='flex justify-around items-center py-7 mx-auto max-w-7xl text-custom-green font-font-sg font-bold'>
+        <div className='font-bold text-2xl mx-5 mb-1 hover:underline'>
         <Link href="/">
               Website</Link>
         </div>
 
       <nav>
-        <ul className='flex justify-between gap-x-5 text-xs whitespace-nowrap mx-5'>
+        <ul className='flex justify-between gap-x-10 text-sm whitespace-nowrap mx-5'>
           <li>
             <Link href="/" className='hover:underline'>
               Начало
@@ -44,7 +44,7 @@ const Header = () => {
       </nav>
 
       <div>
-        <ul className='flex justify-between gap-x-6 text-xs'>
+        <ul className='flex justify-between gap-x-10 text-sm'>
         <li>
             <Link href="/profile" className='hover:underline'>
               Профил

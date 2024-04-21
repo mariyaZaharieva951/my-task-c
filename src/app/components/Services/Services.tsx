@@ -1,16 +1,16 @@
 const Services = () => {
     return (
-        <div className="font-font-sg mx-14 px-7 my-10 py-12">
+        <div className="font-font-sg mx-16 px-7 my-10 py-12">
             <div>
                 <h2 className="text-4xl font-bold pb-8">Други услуги</h2>
             </div>
-            <div className="flex gap-6 w-full">
+            <div className="flex gap-7 w-full">
                 <div className="w-[30%]">
                     <div>
                         <img className="w-[100%]" src="/img1.png"/>
                     </div>
                     <div>
-                        <p>Опасни товари (ADR)</p>
+                        <p className="font-fornt-sg font-bold px-2 pt-4">Опасни товари (ADR)</p>
                     </div>
                 </div>
                 <div className="w-[30%]">
@@ -18,7 +18,7 @@ const Services = () => {
                         <img className="w-[100%]" src="/img2.png"/>
                     </div>
                     <div>
-                        <p>Хладилен транспорт</p>
+                        <p className="font-fornt-sg font-bold px-2 pt-4">Хладилен транспорт</p>
                     </div>
                 </div>
                 <div className="w-[30%]">
@@ -26,7 +26,7 @@ const Services = () => {
                         <img className="w-[100%]" src="/img3.png"/>
                     </div>
                     <div>
-                        <p>Извънгабаритни товари</p>
+                        <p className="font-fornt-sg font-bold px-2 pt-4">Извънгабаритни товари</p>
                     </div>
                 </div>
             </div>
