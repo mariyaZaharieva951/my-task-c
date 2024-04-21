@@ -2,41 +2,41 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className='flex justify-around items-center py-7 mx-auto max-w-7xl text-custom-green font-font-sg font-bold'>
-        <div className='font-bold text-2xl mx-5 mb-1 hover:underline'>
+    <header className='flex justify-between items-center py-7 mx-auto max-w-7xl text-custom-green font-font-sg font-bold'>
+        <div>
         <Link href="/">
-              Website</Link>
+              <img className='w-[85%]' src="./logo.png"/></Link>
         </div>
 
       <nav>
-        <ul className='flex justify-between gap-x-10 text-sm whitespace-nowrap mx-5'>
+        <ul className='flex justify-between gap-x-4 text-sm whitespace-nowrap mx-5'>
           <li>
-            <Link href="/" className='hover:underline'>
+            <Link href="/" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               Начало
             </Link>
           </li>
           <li>
-            <Link href="/about" className='hover:underline'>
+            <Link href="/about" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               За нас
             </Link>
           </li>
           <li>
-            <Link href="/contact" className='hover:underline'>
+            <Link href="/contact" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               Услуги
             </Link>
           </li>
           <li>
-            <Link href="/prices" className='hover:underline'>
+            <Link href="/prices" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               Цени
             </Link>
           </li>
           <li>
-            <Link href="/work" className='hover:underline'>
+            <Link href="/work" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               Как работи
             </Link>
           </li>
           <li>
-            <Link href="/contact" className='hover:underline'>
+            <Link href="/contact" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               Контакти
             </Link>
           </li>
@@ -44,9 +44,9 @@ const Header = () => {
       </nav>
 
       <div>
-        <ul className='flex justify-between gap-x-10 text-sm'>
+        <ul className='flex justify-between gap-x-4 text-sm'>
         <li>
-            <Link href="/profile" className='hover:underline'>
+            <Link href="/profile" className='hover:bg-gray-100 hover:rounded-md px-4 py-2'>
               Профил
             </Link>
           </li>
