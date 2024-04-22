@@ -1,6 +1,6 @@
 const Solutions = () => {
     return (
-      <div className="mx-auto w-[50%] font-font-sg text-custom-green">
+      <div className="mx-auto max-w-[50%] font-font-sg text-custom-green">
         <h1 className="font-bold text-3xl my-7">Решения</h1>
         <div>
             <p className="text-sm my-7">Фокусът ни върху клиентите е същността на нашата работа. Ние доставяме услуги за всички видове

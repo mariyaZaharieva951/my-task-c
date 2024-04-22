@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 export default function Home() {
   return (
     <main>
-      <ToastContainer />
+      <ToastContainer/>
       <Header/>
       <Hero/>
       <Solutions/>
